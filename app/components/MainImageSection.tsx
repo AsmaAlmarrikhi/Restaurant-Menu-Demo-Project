@@ -24,7 +24,7 @@ export const MainImageSection = () => {
           Food for You  
         </div> 
 
-        <p className="mt-2.5 text-[14px] lg:text-[20px] w-full lg:w-[510px]">
+        <p className="mt-2.5 text-[14px] lg:text-[20px] w-full lg:w-[510px] leading-[24px] md:leading-[30px]">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
         </p>
 
