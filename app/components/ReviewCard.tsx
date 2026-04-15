@@ -13,8 +13,7 @@ export const ReviewCard = (prop: Props) => {
     let rateValue = Array.from(Array(review.rate).keys());
 
    return (
-   <div className="flex flex-col gap-[30px] p-[30px]">
-
+   <div className="flex flex-col gap-[30px] p-[30px] bg-(--card-color) rounded-[16px]"> 
         <div className="flex flex-col gap-[20px]" >
             <div className="flex h-[74px] gap-[12px]">
                 <Image 

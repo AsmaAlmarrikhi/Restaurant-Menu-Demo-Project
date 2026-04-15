@@ -9,7 +9,7 @@ export const Footer = () => {
     let linkStyle = "text-[18px] text-white";
 
     return (
-        <div className=" flex flex-col mt-[150px] mb-[80px] px-[20px] lg:px-[135px] gap-[100px]">
+        <div className=" flex flex-col pt-[80px] pb-[80px] px-[20px] lg:px-[135px] gap-[100px] bg-(--card-color)">
             {/* -------------- First Section --------------  */}
             <div className="flex flex-col lg:flex-row flex-wrap gap-[103px]">
 

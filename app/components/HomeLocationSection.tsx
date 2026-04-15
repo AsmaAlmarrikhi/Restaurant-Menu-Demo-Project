@@ -15,7 +15,7 @@ export const HomeLocationSection = () => {
     });
 
     return (
-        <div className="flex flex-col lg:flex-row gap-[60px] lg:gap-[145px] px-[20px] lg:px-[135px] h-[100vh] lg:h-[470px]">
+        <div className="flex flex-col lg:flex-row gap-[60px] lg:gap-[145px] px-[20px] lg:px-[135px] h-[100vh] lg:h-[470px] mb-[90px] lg:mb-[150px]">
 
             <div className="md:flex-1 flex flex-col justify-around gap-[30px] lg:gap-[70px]">
                 <div className="flex  flex-col gap-[16px]">
