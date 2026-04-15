@@ -2,19 +2,11 @@
 import { HomeAboutUSSection } from "./components/HomeAboutUSSection";
 import { HomeClientsReviewSection } from "./components/HomeClientsReviewSection";
 import { HomeFranchiseeSection } from "./components/HomeFranchiseeSection";
-import { HomeLocationSection } from "./components/HomeLocationSection";
-import { HomeMenuSetion } from "./components/HomeMenuSetion";
+import { HomeMenuSection } from "./components/HomeMenuSection";
 import { HomeQualitySection } from "./components/HomeQualitySection";
 import { HomeSupportSection } from "./components/HomeSupportSection";
 import { MainImageSection } from "./components/MainImageSection";
 import dynamic from 'next/dynamic';
-
-// Dynamically import the map, disabling server-side rendering
-// const MapWithNoSSR = dynamic(() => import('./components/HomeLocationSection'), {
-//   ssr: false,
-// });
-
-// import dynamic from 'next/dynamic';
 
 const MapWithNoSSR = dynamic(
   () => import('./components/HomeLocationSection').then((mod) => mod.HomeLocationSection), // Replace '.Map' with your actual component name
@@ -28,7 +20,7 @@ export default function Home() {
         {/* // ZStack Div for main background image  */}
        <MainImageSection/>
        <HomeAboutUSSection/>
-       <HomeMenuSetion/>
+       <HomeMenuSection/>
        <HomeQualitySection/>
        <HomeFranchiseeSection/>
        <HomeClientsReviewSection/>

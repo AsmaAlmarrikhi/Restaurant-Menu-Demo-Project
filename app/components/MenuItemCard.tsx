@@ -10,18 +10,22 @@ interface Props {
 export const MenuItemCard = (prop: Props) => {
 let item = prop.item;
     return (
-        <div className="w-full h-auto lg: w-auto lg:h-[442px] flex flex-col items-center gap-[20px] p-[20p]">
+        <div className="w-full h-auto lg: w-auto lg:h-[442px] flex flex-col  gap-[20px] p-[20p]">
+           
             <Image 
                 src={`/images/menuImages/${item.imageName}.png`}
                 alt={item.name}
                 width={400}
                 height={400}
-                className="h-[240px]  lg:h-[236px]  w-auto"
+                className="w-fit h-[240px] lg:h-[236px] object-contain"
             />
+
             <div className="flex flex-col gap-2">
-                 <p className="text-[20px] lg:text-[24px] text-white font-bold">{item.name}</p>
-            <p className="text-[14px] lg:text-[16px]">{item.about}</p>
-            <div className="flex justify-between">
+                <p className="text-[20px] lg:text-[24px] text-white font-bold">{item.name}</p>
+                <p className="text-[14px] lg:text-[16px]">{item.about}</p>
+            </div>
+
+            <div className="flex justify-between items-center">
                 <p className="text-[24px] font-bold text-white">${item.price}</p>
                 <button>
                     <Image 
@@ -33,8 +37,7 @@ let item = prop.item;
                     />
                 </button>
             </div>
-            </div>
-           
+
         </div>
     )
 };

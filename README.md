@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## Restaurant Menu Landing Page (Demo)
+This project is a demo restaurant landing page built to showcase how a real design can be transformed into a responsive, production-ready website.
 
-First, run the development server:
+## Live Demo
+[https://restaurant-menu-demo-project.vercel.app/]
+A This demo is hosted on a temporary free hosting service, so availability may change.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Purpose
+I created this project to demonstrate to potential clients:
+    *   How their UI/UX design (from Figma) can be implemented in code
+    *   The quality of the final result they can expect
+    *   My skills in building modern, responsive web applications
+This is part of my portfolio to help clients visualize their ideas before committing to a full project.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
+    *   Next.is
+    *   TypeScript
+    *   Tailwind CSS
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+##  Features
+    *   Fully responsive design (mobile, tablet, desktop)
+    *   Clean and modern UI
+    *   Optimized layout for restaurant landing pages
+    *   Fast and lightweight
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+##  Design Credit
+    *   Figma Design: [https://www.figma.com/community/file/1390083691853404331]
+    *   Designer: Tufayel Ahmed Nayef
 
-## Learn More
+## Note:
+This design is used only for demonstration purposes.
+It is not used in any commercial or production project.
 
-To learn more about Next.js, take a look at the following resources:
+## Feedback & Design Notes
+While implementing the design, I identified a few areas for improvement and made adjustments accordingly:
+*   The cart / budget indicator was originally designed as a vector icon
+*   I replaced it with a real text-based budget value to improve clarity and usability. This required extra work to properly adjust:
+    -   Text size
+    -   Budget container size
+    -   Positioning (placed above the cart button)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Additionally:
+    * The original design did not include a mobile navigation state
+    *   A burger menu icon was present, but no menu layout or interaction was provided after clicking it
+To ensure full responsiveness:
+    *   I designed and implemented a functional mobile navigation menu myself
+    *   The focus was on usability and responsiveness rather than visual styling
+- Note: The mobile menu design is a developer interpretation, as it was not defined in the original UI/UX design.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## About TypeScript Interfaces & Structure
+In this project, I used TypeScript interfaces to define the structure of the data, such as:
+    *   Menu items
+    *   Reviews
+    *   Other reusable data models
+These interfaces help:
+    *   Keep the code clean and organized
+    *   Ensure type safety
+    *   Reduce repetition
+    Note: Interfaces are not objects themselves, but they define the shape of objects used in the application.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Reusability
+To improve maintainability and reduce code duplication:
+    *   I created a reusable Menu Card component
+    *   This component is used to display different menu items dynamically based on the provided data
+This approach:
+    *   Makes the code more scalable
+    *   Simplifies future updates
+    *   Follows component-based architecture best practices
+
+## Disclaimer
+This project is a frontend implementation only and serves as a visual/demo prototype, not a full production system.

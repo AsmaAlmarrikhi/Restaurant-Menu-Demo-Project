@@ -1,0 +1,19 @@
+[debug] [2026-04-14T07:18:58.729Z] ----------------------------------------------------------------------
+[debug] [2026-04-14T07:18:58.734Z] Command:       /Users/esma/.nvm/versions/node/v22.9.0/bin/node /Users/esma/.nvm/versions/node/v22.9.0/bin/firebase init
+[debug] [2026-04-14T07:18:58.735Z] CLI Version:   15.14.0
+[debug] [2026-04-14T07:18:58.735Z] Platform:      darwin
+[debug] [2026-04-14T07:18:58.735Z] Node Version:  v22.9.0
+[debug] [2026-04-14T07:18:58.736Z] Time:          Tue Apr 14 2026 14:18:58 GMT+0700 (Indochina Time)
+[debug] [2026-04-14T07:18:58.736Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/esma/Documents/Nextjs Projects/restaruant_menu
+

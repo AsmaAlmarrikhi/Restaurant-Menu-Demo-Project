@@ -5,14 +5,15 @@ import AmericanExpress from '../images/AmericanExpress.png'
 import Visa from '../images/Visa.png';
 
 export const Footer = () => {
-
-    let headlineStyle = "flex flex-col gap-[30px]" 
-    let linkStyle = "text-[18px] text-white"
+    let headlineStyle = "flex flex-col gap-[30px]"; 
+    let linkStyle = "text-[18px] text-white";
+    
     return (
         <div className=" flex flex-col mt-[150px] mb-[80px] px-[20px] lg:px-[135px] gap-[100px]">
-    {/* First Section */}
+            {/* -------------- First Section --------------  */}
             <div className="flex flex-col lg:flex-row flex-wrap gap-[103px]">
-                    {/* Products Section */}
+
+                    {/* --------------  Products Section --------------  */}
                  <div className={headlineStyle}>
                     <h6 className="text-[24px] font-semibold">Our Products</h6>
                    <div className="flex flex-col gap-[24px]">
@@ -23,7 +24,7 @@ export const Footer = () => {
                    </div>
                  </div>
 
-                  {/* legal information Section */}
+                  {/* --------------  legal information Section  -------------- */}
                  <div className={headlineStyle}>
                     <h6 className="text-[24px] font-semibold">legal information</h6>
                    <div className="flex flex-col gap-[24px]">
@@ -31,7 +32,7 @@ export const Footer = () => {
                    </div>
                  </div>
 
-                  {/* Contact us Section */}
+                  {/* --------------  Contact us Section  -------------- */}
                  <div className={headlineStyle}>
                     <h6 className="text-[24px] font-semibold">Contact us</h6>
                    <div className="flex flex-col gap-[24px]">
@@ -41,35 +42,33 @@ export const Footer = () => {
                    </div>
                  </div>
 
-                   {/* We accept Section */}
+                   {/* --------------  We accept Section  -------------- */}
                  <div className={headlineStyle}>
                     <h6 className="text-[24px] font-semibold">We accept</h6>
-                   <div className="flex flex-col gap-[30px]">
+                   <div className="flex flex-col justify-between items-start gap-[30px]">
                         <div className="flex gap-[20px]">
                              <Image 
                                 src={Mastercard}
                                 alt=""
                                 width={100}
                                 height={100}
-                                className="w-fit h-[40px]"
+                                className="w-auto h-[40px] object-contain"
                             />
-
                             <Image 
                                 src={Visa}
                                 alt=""
                                 width={100}
                                 height={100}
-                                className="w-fit h-[40px]"
+                                className="w-auto h-[40px] object-contain"
                             />
                         </div>
-                       
-
+                
                         <Image 
                             src={AmericanExpress}
                             alt=""
                             width={100}
                             height={100}
-                             className="w-fit h-[50px]"
+                             className="w-auto h-[50px] object-contain"
                         />
                    </div>
                  </div>
@@ -77,7 +76,7 @@ export const Footer = () => {
 
             </div>
 
-    {/* Second Section  */}
+            {/*  -------------- Second Section  --------------  */}
             <div className="flex flex-col gap-[28px]">
                 <div className="bg-[#4F4F4F] w-full h-[1px]"></div>
                 <div className="flex flex-col lg:flex-row justify-between gap-8">
