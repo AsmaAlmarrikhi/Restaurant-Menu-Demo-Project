@@ -10,7 +10,7 @@ interface Props {
 export const MenuItemCard = (prop: Props) => {
 let item = prop.item;
     return (
-        <div className="w-full h-auto lg: w-auto lg:h-[442px] flex flex-col  gap-[20px] p-[20p]">
+        <div className="w-full h-auto lg: w-auto lg:h-[442px] flex flex-col items-center gap-[20px] p-[20p]">
            
             <Image 
                 src={`/images/menuImages/${item.imageName}.png`}
