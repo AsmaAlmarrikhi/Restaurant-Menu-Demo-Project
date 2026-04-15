@@ -25,7 +25,7 @@ let item = prop.item;
                 <p className="text-[14px] lg:text-[16px]">{item.about}</p>
             </div>
 
-            <div className="flex justify-between items-center">
+            <div className="w-full flex justify-between items-center">
                 <p className="text-[24px] font-bold text-white">${item.price}</p>
                 <button>
                     <Image 
