@@ -43,6 +43,7 @@ export const NavBar = () => {
                         alt="Vercel logomark"
                         width={34}
                         height={34}
+                        loading="lazy"
                         />
                     <p className="bg-[#FF0000] absolute w-[16px] h-[16px] rounded-[8px] text-[10px] text-center top-[-2] right-[-2]">2</p>
                 </div>
@@ -63,6 +64,7 @@ export const NavBar = () => {
                         alt="Vercel logomark"
                         width={28.33}
                         height={28.33}
+                        loading="lazy"
                     />
                 </button>
 
@@ -88,6 +90,7 @@ export const NavBar = () => {
                         alt="Vercel logomark"
                         width={100}
                         height={100}
+                        loading="lazy"
                     />
                 </Link>
 

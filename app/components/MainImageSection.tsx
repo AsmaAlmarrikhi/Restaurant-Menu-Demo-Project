@@ -10,6 +10,7 @@ export const MainImageSection = () => {
         alt="Main Background Image"
         width={2000}
         height={2000}
+        loading="lazy"
         className="absolute w-full h-[100vh] = top-[0px] lg:top-[62px] -z-100 object-cover "
       />
 

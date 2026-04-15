@@ -17,6 +17,7 @@ let item = prop.item;
                 alt={item.name}
                 width={400}
                 height={400}
+                loading="lazy"
                 className="w-fit h-[240px] lg:h-[236px] object-contain"
             />
 
@@ -33,6 +34,7 @@ let item = prop.item;
                         alt="ADD To Cart"
                         width={40}
                         height={40}
+                        loading="lazy"
                         className="p-[10px] rounded-[42px] border-white object-contain border-[1px]"
                     />
                 </button>

@@ -29,6 +29,7 @@ export const HomeAboutUSSection = () => {
                         alt="About us image"
                         width={300}
                         height={300}
+                        loading="lazy"
                         className="w-full h-full rounded-[12px] absolute inset-0 object-right lg:object-cover"
                     />
 
@@ -37,6 +38,7 @@ export const HomeAboutUSSection = () => {
                         alt="About us image"
                         width={300}
                         height={300}
+                        loading="lazy"
                         />
                     </button>
                 </div>

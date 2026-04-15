@@ -52,6 +52,7 @@ export const Footer = () => {
                                 alt=""
                                 width={100}
                                 height={100}
+                                loading="lazy"
                                 className="w-auto h-[40px] object-contain"
                             />
                             <Image 
@@ -59,6 +60,7 @@ export const Footer = () => {
                                 alt=""
                                 width={100}
                                 height={100}
+                                loading="lazy"
                                 className="w-auto h-[40px] object-contain"
                             />
                         </div>
@@ -68,7 +70,8 @@ export const Footer = () => {
                             alt=""
                             width={100}
                             height={100}
-                             className="w-auto h-[50px] object-contain"
+                            loading="lazy"
+                            className="w-auto h-[50px] object-contain"
                         />
                    </div>
                  </div>
@@ -88,7 +91,8 @@ export const Footer = () => {
                                     alt={link.name}
                                     width={30}
                                     height={30}
-                                    className="object-fill"
+                                    loading="lazy"
+                                    className="object-fill w-[30px] h-[30px]"
                                 />
                             </a>
                         )}

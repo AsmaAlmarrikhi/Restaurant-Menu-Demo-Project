@@ -22,6 +22,7 @@ export const ReviewCard = (prop: Props) => {
                     alt={`${review.name} Photo`}
                     width={100}
                     height={100}
+                    loading="lazy"
                     className="w-[74px] h-[74px] object-cover  bg-white rounded-[37px]"
                 />
                 <div className="flex flex-col gap-2">
@@ -34,6 +35,7 @@ export const ReviewCard = (prop: Props) => {
                             alt={`${review.name} Photo`}
                             width={12}
                             height={12}
+                            loading="lazy"
                             className="w-[12px] h-[12px]"
                             />
                         )}
@@ -52,14 +54,16 @@ export const ReviewCard = (prop: Props) => {
                         alt={`ReviewComma`}
                         width={10}
                         height={19}
+                        loading="lazy"
                         className="w-[10px] h-[19px]"
                     />
-                    
+
                     <Image 
                         src={ReviewComma}
                         alt={`ReviewComma`}
                         width={10}
                         height={19}
+                        loading="lazy"
                         className="w-[10px] h-[19px]"
                     />
                 </div>
