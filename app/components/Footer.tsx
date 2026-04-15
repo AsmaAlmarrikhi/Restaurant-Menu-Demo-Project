@@ -7,7 +7,7 @@ import Visa from '../images/Visa.png';
 export const Footer = () => {
     let headlineStyle = "flex flex-col gap-[30px]"; 
     let linkStyle = "text-[18px] text-white";
-    
+
     return (
         <div className=" flex flex-col mt-[150px] mb-[80px] px-[20px] lg:px-[135px] gap-[100px]">
             {/* -------------- First Section --------------  */}
@@ -77,10 +77,10 @@ export const Footer = () => {
             </div>
 
             {/*  -------------- Second Section  --------------  */}
-            <div className="flex flex-col gap-[28px]">
+            <div className="flex flex-col gap-[28px] w-full">
                 <div className="bg-[#4F4F4F] w-full h-[1px]"></div>
                 <div className="flex flex-col lg:flex-row justify-between gap-8">
-                    <div className="flex gap-[20px]">
+                    <div className="flex justify-center items-center gap-[20px]">
                         {socailMediaLinks.map((link, key) => 
                             <a key={key} href={link.url} target="_blank"> 
                                 <Image 
@@ -93,7 +93,7 @@ export const Footer = () => {
                             </a>
                         )}
                     </div>
-                    <p className="text-white text-[18px]">© 2024 Nayef All rights reserved.</p>
+                    <p className="text-white text-[18px] text-center">© 2024 Nayef All rights reserved.</p>
                 </div>
             </div>
 

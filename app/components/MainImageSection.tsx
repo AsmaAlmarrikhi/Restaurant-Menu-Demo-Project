@@ -13,7 +13,7 @@ export const MainImageSection = () => {
         className="absolute w-full h-[100vh] = top-[0px] lg:top-[62px] -z-100 object-cover "
       />
 
-      <div className="bg-black opacity-60 md:opacity-0 w-full h-full absolute -z-99 top-[0px] lg:top-[62px] ">
+      <div className="bg-black opacity-60 md:opacity-0 w-full h-[100vh] absolute -z-99 top-[0px] lg:top-[62px] ">
         {/* --------------- overlay Black Color Div For Small Screen Only --------------- */}
       </div>
 
