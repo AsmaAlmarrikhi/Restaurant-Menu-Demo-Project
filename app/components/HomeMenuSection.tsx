@@ -21,7 +21,7 @@ export const HomeMenuSection = () => {
                 )}
             </div>
 
-            <div className="lg:grid lg:grid-cols-3 gap-[30px] ">
+            <div className="flex flex-col lg:grid lg:grid-cols-3 gap-[30px] ">
                 {menuItems.map((item, key) => <MenuItemCard key={key} item={item}/>)}
             </div>
         
