@@ -92,7 +92,7 @@ export const Footer = () => {
                                     width={30}
                                     height={30}
                                     loading="lazy"
-                                    className="object-fill w-[30px] h-[30px]"
+                                    className="object-fill w-[30px] h-[30px] "
                                 />
                             </a>
                         )}
