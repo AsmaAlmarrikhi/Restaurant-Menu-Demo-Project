@@ -15,7 +15,7 @@ export const HomeAboutUSSection = () => {
             </div>
 
             <div className="flex flex-col lg:flex-row justify-stretch gap-[84px]">
-                <p className="flex-1 text-[18px] leading-[30px] h-full">
+                <p className="flex-1 text-[18px] leading-[30px] h-full text-center lg:text-left">
                     It is a long established fact that a reader will be distracted layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The normal distribution of letters, as opposed to using 'Content  Many desktop publishing packages and web page editors search for 'lorem ipsum' will uncover many web sites still in  humour and the like. 
                     <a href='/...'> 
                         <strong>
