@@ -6,12 +6,15 @@
 
   --background: var(--black-color);
   --foreground: #ffffff;
+  
 }
 
 @theme inline {
   --main-color: var(--black-color);
   --card-color: var(--card-color);
 }
+
+
 
 body {
   background: var(--background);
